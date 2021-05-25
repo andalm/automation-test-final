@@ -39,10 +39,6 @@
 19. Escenario de Pruebas 19. Ingresar con cuenta válida, Listar Posts, Editar Post (500 caracteres), Listar Posts
 20. Escenario de Pruebas 20. Ingresar con cuenta inválida, Ingresar con cuenta válida, Listar Posts, Editar Post (500 caracteres), Listar Posts
 
-```
-El readme del repo detalla las instrucciones para ejecutar los escenarios. Estas instrucciones deben llevar a la ejecución de los escenarios. De lo contrario no se darán los puntos en el siguiente criterio. [2 puntos]
-```
-
 ### Prerequisitos
 
 - Tener instalado ghost en las versiones bajo prueba (v3.3.0 y v3.42.5)
@@ -105,8 +101,8 @@ Cubre del escenario 1 al 5
 - Una vez esté en esta la carpeta `automation-tests/cypress-page-object`, corra el comando `node datapool`.
 - El anterior paso generará los fixtures necesarios para las pruebas con datos a-priori en `automation-tests/cypress-page-object/cypress/fixtures`.
 - Todos los fixtures son en formato json y los dejamos como entidades del dominio para que sea más sencillo identificarlos.
-- Los escenarios de prueba conprenden desde el 1 al 20 [Escenarios](https://github.com/andalm/automation-tests#cypress)
-- Las pruebas se corren igual que en las anteriores entregas, ver [Ejecución de pruebas con Cypress](https://github.com/andalm/automation-tests#cypress) y correr las pruebas contenidas en `automation-tests/cypress-page-object/cypress/integration/week7`
+- Los escenarios de prueba conprenden desde el 1 al 20 [Escenarios](https://github.com/andalm/automation-tests-final#escenarios-de-pruebas) con cada estrategia de generación de datos respectiva
+- Las pruebas se corren igual que en las anteriores entregas, ver [Ejecución de pruebas con Cypress](https://github.com/andalm/automation-tests-final#cypress) y correr las pruebas contenidas en `automation-tests/cypress-page-object/cypress/integration/week7`
 
 ---
 
