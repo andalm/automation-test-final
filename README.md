@@ -11,7 +11,7 @@
 
 - El documento contiene todo el detalle de la estrategia de pruebas aplicada [Informe](https://uniandes-my.sharepoint.com/:w:/g/personal/jd_alzate253_uniandes_edu_co/EfNHtqRSWhFIt9HqWoGt7TQBziPr6VLpfYLIGX0bvnywSg?e=CxVmbm)
 - Exposición de estrategia de pruebas por los integrantes del equipo [Video](https://uniandes-my.sharepoint.com/:v:/g/personal/jd_alzate253_uniandes_edu_co/ESoNGQJYyD9GjkhtQi6eNiQBmi0wzgfWriTGtcmIXElvdQ?e=WxLLOE)
-- Pruebas exploratorias [Inventario](https://drive.google.com/file/d/14fzw0Dj_XpmvJvZ6cn6lQN_ocyv-bZtj/view)
+- Pruebas exploratorias manuales [Inventario](https://drive.google.com/file/d/14fzw0Dj_XpmvJvZ6cn6lQN_ocyv-bZtj/view)
 
 ### Funcionalidades Bajo Pruebas:
 
