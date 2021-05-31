@@ -7,6 +7,12 @@
 - [Jael Rivera Oviedo](https://github.com/ja-rivera94) (ja.riverao1@uniandes.edu.co)
 - [Yesid Felipe Tombé](https://github.com/Yesidtombe) (y.tombe@uniandes.edu.co)
 
+### Informe de Estrategia de Pruebas
+
+- El documento contiene todo el detalle de la estrategia de pruebas aplicada [Informe](https://uniandes-my.sharepoint.com/:w:/g/personal/jd_alzate253_uniandes_edu_co/EfNHtqRSWhFIt9HqWoGt7TQBziPr6VLpfYLIGX0bvnywSg?e=CxVmbm)
+- Exposición de estrategia de pruebas por los integrantes del equipo [Video](https://uniandes-my.sharepoint.com/:v:/g/personal/jd_alzate253_uniandes_edu_co/ESoNGQJYyD9GjkhtQi6eNiQBmi0wzgfWriTGtcmIXElvdQ?e=WxLLOE)
+- Pruebas exploratorias [Inventario](https://drive.google.com/file/d/14fzw0Dj_XpmvJvZ6cn6lQN_ocyv-bZtj/view)
+
 ### Funcionalidades Bajo Pruebas:
 
 1. Funcionalidad 1. Ingresar con cuenta: Permite ingresar a la aplicación con una cuenta previamente creada.
@@ -50,6 +56,21 @@
 
 - Antes de comenzar con lo siguiente debe tener instalado Ghost en el sistema. [Instrucciones](https://ghost.org/docs/install/)
 - Antes de comenzar con lo siguiente debe tener instalado Cypress en el sistema. [Instrucciones](https://docs.cypress.io/guides/getting-started/installing-cypress)
+
+### Pruebas exploratorias con Rippupet
+
+Para ejecutar y analizar el resultado de pruebas exploratorias con ripuppet es necesario seguir los siguientes pasos
+
+- Paso 1 validar que tenga acceso a ghost con usuario y contraseña correctos
+- Paso 2 ubicarse en el directorio `pruebas-exploratorias/RIPuppetCoursera`
+- Paso 3 modificar el archivo `config.json` el atributo `values.ember8` reemplazarlo por el correo de login en ghost
+- Paso 4 modificar el archivo `config.json` el atributo `values.ember10` reemplazarlo por el password del login en host
+- Paso 5 modificar el archivo `config.json` el atributo `url` reemplazar la ip y el pto por los configurados en ghost
+- Paso 5 ejecutar `node index.js` recomendable usar la version **v12.22.1\*** de node
+- Paso 6 una vez finalizada la ejecucion ejecutar `npm install -g http-server`
+- Paso 7 una vez instalada la herramienta anterior dirigirse al directorio `results` y una vez ubicado alli ejecutar `http-server`
+- Paso 7 la terminal debe indicar el siguiente output `Available on:` debes de ingresar a la ip http://127.0.0.1:8080 debes seleccionar el reporte de la fecha que deseas validar y luego seleccionar el folder **chromium/**
+- Paso 8 para validar el reporte debes abrir el archivo `report.html`
 
 **Patrón**
 
@@ -256,16 +277,3 @@ Para ejecutar los escenarios de pruebas con datos aleatorios se deben ejecutar l
 **Escenarios de prueba (VRT)**
 
 Cubre del escenario 6 al 10
-
-### Ejecución pruebas exploratorias con Rippupet
-Para ejecutar y analizar el resultado de pruebas exploratorias con ripuppet es necesario seguir los siguientes pasos
-- Paso 1 validar que tenga acceso a ghost con usuario y contraseña correctos
-- Paso 2 ubicarse en el directorio `pruebas-exploratorias/RIPuppetCoursera`
-- Paso 3 modificar el archivo `config.json` el atributo `values.ember8` reemplazarlo por el correo de login en ghost
-- Paso 4 modificar el archivo `config.json` el atributo `values.ember10` reemplazarlo por el password del login en host
-- Paso 5 modificar el archivo `config.json` el atributo `url` reemplazar la ip y el pto por los configurados en ghost
-- Paso 5 ejecutar `node index.js` recomendable usar la version **v12.22.1*** de node
-- Paso 6 una vez finalizada la ejecucion ejecutar `npm install -g http-server`
-- Paso 7 una vez instalada la herramienta anterior dirigirse al directorio `results` y una vez ubicado alli ejecutar `http-server`
-- Paso 7 la terminal debe indicar el siguiente output `Available on:` debes de ingresar a la ip http://127.0.0.1:8080 debes seleccionar el reporte de la fecha que deseas validar y luego seleccionar el folder **chromium/** 
-- Paso 8 para validar el reporte debes abrir el archivo ``report.html``
