@@ -50,14 +50,7 @@
 - Tener instalado ghost en las versiones bajo prueba (v3.3.0 y v3.42.5)
 - Version de node 12.16.1
 
-### Cypress
-
-**Instalación**
-
-- Antes de comenzar con lo siguiente debe tener instalado Ghost en el sistema. [Instrucciones](https://ghost.org/docs/install/)
-- Antes de comenzar con lo siguiente debe tener instalado Cypress en el sistema. [Instrucciones](https://docs.cypress.io/guides/getting-started/installing-cypress)
-
-### Pruebas exploratorias con Rippupet
+### Pruebas Exploratorias Automáticas con Rippupet
 
 Para ejecutar y analizar el resultado de pruebas exploratorias con ripuppet es necesario seguir los siguientes pasos
 
@@ -71,6 +64,13 @@ Para ejecutar y analizar el resultado de pruebas exploratorias con ripuppet es n
 - Paso 7 una vez instalada la herramienta anterior dirigirse al directorio `results` y una vez ubicado alli ejecutar `http-server`
 - Paso 7 la terminal debe indicar el siguiente output `Available on:` debes de ingresar a la ip http://127.0.0.1:8080 debes seleccionar el reporte de la fecha que deseas validar y luego seleccionar el folder **chromium/**
 - Paso 8 para validar el reporte debes abrir el archivo `report.html`
+
+### Cypress
+
+**Instalación**
+
+- Antes de comenzar con lo siguiente debe tener instalado Ghost en el sistema. [Instrucciones](https://ghost.org/docs/install/)
+- Antes de comenzar con lo siguiente debe tener instalado Cypress en el sistema. [Instrucciones](https://docs.cypress.io/guides/getting-started/installing-cypress)
 
 **Patrón**
 
